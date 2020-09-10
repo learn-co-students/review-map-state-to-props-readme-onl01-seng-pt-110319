@@ -1,18 +1,18 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import './App.css';
-
-
+debugger;
 class App extends Component {
 
   handleOnClickItems() {
-    this.props.store.dispatch({
+    debugger;
+    this.props.dispatch({
       type: 'GET_COUNT_OF_ITEMS',
     });
   }
 
   handleOnClickUsers() {
-    this.props.store.dispatch({
+    this.props.dispatch({
       type: 'GET_COUNT_OF_USERS',
     });
   }
